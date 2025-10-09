@@ -20,6 +20,10 @@ The following valuables are currently included:
 
 ## Change Log
 
+### v0.0.1 (Version Re-alignment)
+- Changed version to align with Semantic Versioning
+  - https://semver.org/
+
 ### v0.0.0.1 (Bugfix Release)
 - **Removed Big Asteroid**: Item was oversized and unable to pass through standard doors.  
 - **Renamed Trophy to Figurine**: Fixed naming conflict with existing valuables.  
