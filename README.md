@@ -1,26 +1,28 @@
 # TRK Valuables
 
-**TRK Valuables** is a custom R.E.P.O. mod that introduces unique valuables based on 3D models personally created in Blender and Blockbench.  
-These assets add collectible depth to gameplay, ranging from ornate statues and trophies to variously sized asteroids and even a short sword.
+**TRK Valuables** is a custom R.E.P.O. mod that introduces unique valuables based on 3D models I personally created in Blender and Blockbench.
 
 ---
 
-## Features (v0.0.0)
+## Features
 
-The following valuables were included in the initial release:
+The following valuables are currently included:
 
-- **Statue** (large decorative model)  
-- **Trophy / Figurine** (smaller variant of Statue model)  
-- **Asteroids** (same model, different scales)  
-  - Big Asteroid  
+- **Statue**
+- **Figurine**
+- **Asteroids**
   - Medium Asteroid  
   - Small Asteroid  
   - Tiny Asteroid  
-- **Short Sword** (unique model)  
+- **Short Sword**
 
 ---
 
 ## Change Log
+
+### v0.0.0.1 (Bugfix Release)
+- **Removed Big Asteroid**: Item was oversized and unable to pass through standard doors.  
+- **Renamed Trophy to Figurine**: Fixed naming conflict with existing valuables.  
 
 ### v0.0.0 (Initial Release)
 - Added Statue valuable (large)  
@@ -33,8 +35,8 @@ The following valuables were included in the initial release:
 ## Known Issues
 
 ### v0.0.0
-- **Big Asteroid is oversized**: It cannot fit through standard doors.  
-- **Naming conflict**: One valuable was erroneously named *"Valuable Trophy"*, causing the error:  
-  `Failed to register valuable "Valuable Trophy". Valuable prefab already exists in Resources with the same name.`  
+- **Big Asteroid was oversized**: Could not fit through standard doors.
+- **Naming conflict**: Valuable named *"Valuable Trophy"* caused the error:  
+  `Failed to register valuable "Valuable Trophy". Valuable prefab already exists in Resources with the same name.`
 
 ---

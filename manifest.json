@@ -1,7 +1,7 @@
 {
   "name": "TRK_Valuables",
   "description": "Custom Valuables using 3D Models made by me",
-  "version_number": "0.0.0",
+  "version_number": "0.0.0.1",
   "dependencies": [
     "Zehs-REPOLib-2.1.0"
   ],
