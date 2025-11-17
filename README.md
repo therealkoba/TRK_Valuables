@@ -22,7 +22,7 @@
 | Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
 |-------------------|------------|--------------|----------------|------------------------|-------------|
 | AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
-| AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | —           |
+| AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | Very Tall   |
 | ShortSword         | Strong     | High         | Medium+++      | Metal Hollow Medium    | Big         |
 | BigCartoonSword    | Strong     | High+        | Medium+++      | Metal Hollow Medium    | Big         |
 | TallCartoonSword   | Strong     | High+        | Medium++++     | Metal Hollow Medium    | Tall        |
@@ -41,7 +41,7 @@
 | Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
 |-------------------|------------|--------------|----------------|------------------------|-------------|
 | AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
-| AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | —           |
+| AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | Very Tall   |
 | ShortSword         | Strong     | High         | Medium+++      | Metal Hollow Medium    | Big         |
 | BigCartoonSword    | Strong     | High+        | Medium+++      | Metal Hollow Medium    | Big         |
 | TallCartoonSword   | Strong     | High+        | Medium++++     | Metal Hollow Medium    | Tall        |
