@@ -6,19 +6,123 @@
 
 ## Features
 
-The following valuables are currently included:
-
+### Valuables
 - **Statue**
 - **Figurine**
 - **Asteroids**
-  - Medium Asteroid  
-  - Small Asteroid  
-  - Tiny Asteroid  
+  - Medium Asteroid
+  - Small Asteroid
+  - Tiny Asteroid
 - **Short Sword**
+- **Cartoon Sword**
+  - Big Cartoon Sword
+  - Tall Cartoon Sword
 
+### Valuables' Presets
+- AO_Figurine
+  | Durability: Weak++
+  | Value: Medium++
+  | Phys Attribute: Light 
+  | Phys Audio: Ceramic Small
+  | Volume Type: Medium
+- AO_Statue
+  | Durability: Strong+
+  | Value: Expensive++
+  | Phys Attribute: Very Heavy
+  | Phys Audio: Metal Hollow Big
+  | Volume Type:
+- ShortSword
+  | Durability: Strong
+  | Value: High
+  | Phys Attribute: Medium+++
+  | Phys Audio: Metal Hollow Medium
+  | Volume Type: Big
+- BigCartoonSword
+  | Durability: Strong
+  | Value: High+
+  | Phys Attribute: Medium+++
+  | Phys Audio: Metal Hollow Medium
+  | Volume Type: Big
+- TallCartoonSword
+  | Durability: Strong
+  | Value: High+
+  | Phys Attribute: Medium++++
+  | Phys Audio: Metal Hollow Medium
+  | Volume Type: Tall
+- MediumAsteroid
+  | Durability: Strong
+  | Value: Medium+
+  | Phys Attribute: Heavy
+  | Phys Audio: Rock Medium
+  | Volume Type: Medium
+- SmallAsteroid
+  | Durability: Strong
+  | Value: Medium
+  | Phys Attribute: Medium++++
+  | Phys Audio: Rock Medium
+  | Volume Type: Tiny
+- TinyAsteroid
+  | Durability: Strong
+  | Value: Very Cheap
+  | Phys Attribute: Medium+++
+  | Phys Audio: Rock Medium
+  | Volume Type: Tiny
 ---
 
 ## Change Log
+
+### v0.1.0 (Feature Update)
+- Update the REPOLib dependency from Zehs-REPOLib-2.1.0 to Zehs-REPOLib-3.0.2
+- Added Cartoon Swords (One Big and One Tall — size variations of one model)
+- Adjusted all Valuable Presets (Updating my project environment to v0.3.1 wiped all my existing presets. My fault probably.):
+  - AO_Figurine
+    | Durability: Weak++
+    | Value: Medium++
+    | Phys Attribute: Light
+    | Phys Audio: Ceramic Small
+    | Volume Type: Medium
+  - AO_Statue
+    | Durability: Strong+
+    | Value: Expensive++
+    | Phys Attribute: Very Heavy
+    | Phys Audio: Metal Hollow Big
+    | Volume Type: Very Tall
+  - ShortSword
+    | Durability: Strong
+    | Value: High
+    | Phys Attribute: Medium+++
+    | Phys Audio: Metal Hollow Medium
+    | Volume Type: Big
+  - BigCartoonSword
+    | Durability: Strong
+    | Value: High+
+    | Phys Attribute: Medium+++
+    | Phys Audio: Metal Hollow Medium
+    | Volume Type: Big
+  - TallCartoonSword
+    | Durability: Strong
+    | Value: High+
+    | Phys Attribute: Medium++++
+    | Phys Audio: Metal Hollow Medium
+    | Volume Type: Tall
+  - MediumAsteroid
+    | Durability: Strong
+    | Value: Medium+
+    | Phys Attribute: Heavy
+    | Phys Audio: Rock Medium
+    | Volume Type: Medium
+   SmallAsteroid
+    | Durability: Strong
+    | Value: Medium
+    | Phys Attribute: Medium++++
+    | Phys Audio: Rock Medium
+    | Volume Type: Small
+  - TinyAsteroid
+    | Durability: Strong
+    | Value: Very Cheap
+    | Phys Attribute: Medium+++
+    | Phys Audio: Rock Medium
+    | Volume Type: Tiny
 
 ### v0.0.1 (Version Re-alignment)
 - Changed version to align with Semantic Versioning
