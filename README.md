@@ -38,6 +38,7 @@
 - Update the REPOLib dependency from Zehs-REPOLib-2.1.0 to Zehs-REPOLib-3.0.2
 - Added Cartoon Swords (One Big and One Tall — size variations of one model)
 - Adjusted all Valuable Presets (Updating my project environment to v0.3.1 wiped all my existing presets. My fault probably.):
+
 | Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
 |-------------------|------------|--------------|----------------|------------------------|-------------|
 | AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
