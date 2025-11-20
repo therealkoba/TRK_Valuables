@@ -20,34 +20,52 @@
 
 ### Valuables' Presets
 | Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
-|-------------------|------------|--------------|----------------|------------------------|-------------|
+|--------------------|------------|--------------|----------------|------------------------|-------------|
 | AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
-| AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | Very Tall   |
-| ShortSword         | Strong     | High         | Medium+++      | Metal Hollow Medium    | Big         |
-| BigCartoonSword    | Strong     | High+        | Medium+++      | Metal Hollow Medium    | Big         |
-| TallCartoonSword   | Strong     | High+        | Medium++++     | Metal Hollow Medium    | Tall        |
-| MediumAsteroid     | Strong     | Medium+      | Heavy          | Rock Medium            | Medium      |
-| SmallAsteroid      | Strong     | Medium       | Medium++++     | Rock Medium            | Tiny        |
-| TinyAsteroid       | Strong     | Very Cheap   | Medium+++      | Rock Medium            | Tiny        |
+| AO_Statue          | Strong+    | Expensive    | Heavy          | Metal Hollow Big       | Very Tall   |
+| ShortSword         | Strong     | High         | Medium+        | Metal Hollow Medium    | Big         |
+| BigCartoonSword    | Strong     | High         | Medium+        | Metal Hollow Medium    | Big         |
+| TallCartoonSword   | Strong     | High         | Medium++       | Metal Hollow Medium    | Tall        |
+| MediumAsteroid     | Strong     | Medium+      | Medium+++      | Rock Medium            | Medium      |
+| SmallAsteroid      | Strong     | Medium       | Medium++       | Rock Medium            | Small       |
+| TinyAsteroid       | Strong     | Very Cheap   | Medium         | Rock Medium            | Tiny        |
 
 ---
 
 ## Change Log
 
+### v0.1.1 (Valuables Fix)
+- Fixed the collider for the Short Sword so the top of the blade will no longer clip through the cart, floor, etc.
+- Fixed the collider for the TallCartoonSword so it properly covers the Blade Grip.
+- Decreased the size of the collider of each asteroid. They were made too big in v0.1.0.
+- Adjusted the following Valuable Presets (not all were changed):
+
+| Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
+|--------------------|------------|--------------|----------------|------------------------|-------------|
+| AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
+| AO_Statue          | Strong+    | Expensive    | Heavy          | Metal Hollow Big       | Very Tall   |
+| ShortSword         | Strong     | High         | Medium+        | Metal Hollow Medium    | Big         |
+| BigCartoonSword    | Strong     | High         | Medium+        | Metal Hollow Medium    | Big         |
+| TallCartoonSword   | Strong     | High         | Medium++       | Metal Hollow Medium    | Tall        |
+| MediumAsteroid     | Strong     | Medium+      | Medium+++      | Rock Medium            | Medium      |
+| SmallAsteroid      | Strong     | Medium       | Medium++       | Rock Medium            | Small       |
+| TinyAsteroid       | Strong     | Very Cheap   | Medium         | Rock Medium            | Tiny        |
+
 ### v0.1.0 (Feature Update)
 - Update the REPOLib dependency from Zehs-REPOLib-2.1.0 to Zehs-REPOLib-3.0.2
 - Added Cartoon Swords (One Big and One Tall — size variations of one model)
+- Increased the size of the collider for each asteroid.
 - Adjusted all Valuable Presets (Updating my project environment to v0.3.1 wiped all my existing presets. My fault probably.):
 
 | Item               | Durability | Value        | Phys Attribute | Phys Audio             | Volume Type |
-|-------------------|------------|--------------|----------------|------------------------|-------------|
+|--------------------|------------|--------------|----------------|------------------------|-------------|
 | AO_Figurine        | Weak++     | Medium++     | Light          | Ceramic Small          | Medium      |
 | AO_Statue          | Strong+    | Expensive++  | Very Heavy     | Metal Hollow Big       | Very Tall   |
 | ShortSword         | Strong     | High         | Medium+++      | Metal Hollow Medium    | Big         |
 | BigCartoonSword    | Strong     | High+        | Medium+++      | Metal Hollow Medium    | Big         |
-| TallCartoonSword   | Strong     | High+        | Medium++++     | Metal Hollow Medium    | Tall        |
+| TallCartoonSword   | Strong+    | High+        | Medium++++     | Metal Hollow Medium    | Tall        |
 | MediumAsteroid     | Strong     | Medium+      | Heavy          | Rock Medium            | Medium      |
-| SmallAsteroid      | Strong     | Medium       | Medium++++     | Rock Medium            | Tiny        |
+| SmallAsteroid      | Strong     | Medium       | Medium++++     | Rock Medium            | Small       |
 | TinyAsteroid       | Strong     | Very Cheap   | Medium+++      | Rock Medium            | Tiny        |
 
 
